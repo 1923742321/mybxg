@@ -9,6 +9,12 @@ require.config({
         common:"../js/common",
         login:"../js/login",
         template:"artTemplate/template-web",
-        teacherlist:"../js/teacher-list"
+        teacherlist:"../js/teacher-list",
+        bootstrap:"bootstrap/js/bootstrap.min"
+    },
+    shim:{
+        bootstrap:{
+            deps:['jquery']
+        }
     }
 })
