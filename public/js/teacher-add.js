@@ -1,7 +1,7 @@
 /**
  * Created by Administrator on 2017/9/26.
  */
-require(['jquery','template','util'],function ($,template,util) {
+require(['jquery','template','util','datepicker','language'],function ($,template,util) {
    var  tcId=util.qs('tc_id');
     // console.log(tcId);
     if(tcId){
